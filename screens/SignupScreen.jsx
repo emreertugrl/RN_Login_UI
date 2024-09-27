@@ -56,18 +56,31 @@ const SignupScreen = () => {
           <Animated.View
             entering={FadeInDown.duration(1000).springify()}
             className="bg-black/5 p-2 rounded-2xl w-full">
-            <TextInput placeholder="User Name" placeholderTextColor={'gray'} />
+            <TextInput
+              className="text-black"
+              placeholder="User Name"
+              placeholderTextColor={'gray'}
+            />
           </Animated.View>
 
           <Animated.View
             entering={FadeInDown.delay(200).duration(1000).springify()}
             className="bg-black/5 p-2 rounded-2xl w-full">
-            <TextInput placeholder="Email" placeholderTextColor={'gray'} />
+            <TextInput
+              className="text-black"
+              placeholder="Email"
+              placeholderTextColor={'gray'}
+            />
           </Animated.View>
           <Animated.View
             entering={FadeInDown.delay(400).duration(1000).springify()}
             className="bg-black/5 p-2 rounded-2xl w-full mb-3">
-            <TextInput placeholder="Password" placeholderTextColor={'gray'} />
+            <TextInput
+              secureTextEntry
+              className="text-black"
+              placeholder="Password"
+              placeholderTextColor={'gray'}
+            />
           </Animated.View>
           <Animated.View
             entering={FadeInDown.delay(600).duration(1000).springify()}

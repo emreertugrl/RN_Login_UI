@@ -19,7 +19,7 @@ import {useNavigation} from '@react-navigation/native';
 const LoginScreen = () => {
   const navigation = useNavigation();
   return (
-    <View className="bg-white w-full h-full">
+    <View className="bg-white w-full h-full ">
       <StatusBar styles="light" />
       <Image
         className="h-full w-full absolute"
@@ -56,12 +56,21 @@ const LoginScreen = () => {
           <Animated.View
             entering={FadeInDown.duration(1000).springify()}
             className="bg-black/5 p-2 rounded-2xl w-full">
-            <TextInput placeholder="Email" placeholderTextColor={'gray'} />
+            <TextInput
+              placeholder="Email"
+              placeholderTextColor={'gray'}
+              className="text-black"
+            />
           </Animated.View>
           <Animated.View
             entering={FadeInDown.delay(200).duration(1000).springify()}
             className="bg-black/5 p-2 rounded-2xl w-full mb-3">
-            <TextInput placeholder="Password" placeholderTextColor={'gray'} />
+            <TextInput
+              className="text-black"
+              secureTextEntry
+              placeholder="Password"
+              placeholderTextColor={'gray'}
+            />
           </Animated.View>
           <Animated.View
             entering={FadeInDown.delay(400).duration(1000).springify()}
