@@ -7,7 +7,6 @@ This project is a mobile login and signup application built with React Native. U
 - Login and Signup screens
 - Animated form transitions
 - User-friendly interface
-- Form validation
 - Optimized design for mobile devices
 
 ## Technologies Used
@@ -51,10 +50,6 @@ Clone the project:
 
 <img src="assets/images//Login-SignUp.gif" alt="Login-SingUp-gif" />
 
-## Live Demo
-
-<a href="https://menuapplication.netlify.app/">Netlify Project View</a>
-
 ## API
 
 No external APIs were used in this project.
@@ -66,7 +61,7 @@ For any questions or suggestions, feel free to reach out:
 - Email: emreertugrl7@gmail.com
 - LinkedIn: [emreertugrul7](https://www.linkedin.com/in/emreertugrul7/)
 
-# Learn More
+## Learn More
 
 To learn more about React Native,Reanimated and Navigation, take a look at the following resources:
 
