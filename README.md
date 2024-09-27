@@ -11,11 +11,10 @@ This project is a mobile login and signup application built with React Native. U
 
 ## Technologies Used
 
-- React Native
-- React Navigation
-- React Native Reanimated
-- NativeWind
-- JavaScript
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - learn more about React Native Reanimated.
+- [React Navigation](https://reactnavigation.org/) - learn more about React Navigation.
+- [NativeWind](https://www.nativewind.dev/) - learn more about NativeWind.
 
 ## Installation and Usage
 
@@ -60,11 +59,3 @@ For any questions or suggestions, feel free to reach out:
 
 - Email: emreertugrl7@gmail.com
 - LinkedIn: [emreertugrul7](https://www.linkedin.com/in/emreertugrul7/)
-
-## Learn More
-
-To learn more about React Native,Reanimated and Navigation, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - learn more about React Native Reanimated.
-- [React Navigation](https://reactnavigation.org/) - learn more about React Navigation.
