@@ -1,81 +1,75 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Mobile Login and Signup App
 
-# Getting Started
+This project is a mobile login and signup application built with React Native. Users can create accounts, log in, and experience a modern user interface with animated transitions.
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- Login and Signup screens
+- Animated form transitions
+- User-friendly interface
+- Form validation
+- Optimized design for mobile devices
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Technologies Used
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- React Native
+- React Navigation
+- React Native Reanimated
+- NativeWind
+- JavaScript
 
-```bash
-# using npm
-npm start
+## Installation and Usage
 
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+Clone the project:
 
 ```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+   git clone https://github.com/emreertugrl/RN_Login_UI.git
 ```
 
-### For iOS
+2. Navigate to the project directory:
 
-```bash
-# using npm
-npm run ios
+   ```bash
+   cd RN_Login_UI
+   ```
 
-# OR using Yarn
-yarn ios
-```
+3. Install dependencies:
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+   ```bash
+   npm install
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+   ```
 
-## Step 3: Modifying your App
+4. Run the app:
 
-Now that you have successfully run the app, let's modify it.
+   ```bash
+   npm run android  # To run on Android devices
+   npm run ios      # To run on iOS devices
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+   ```
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Visual
 
-## Congratulations! :tada:
+<img src="assets/images//Login-SignUp.gif" alt="Login-SingUp-gif" />
 
-You've successfully run and modified your React Native App. :partying_face:
+## Live Demo
 
-### Now what?
+<a href="https://menuapplication.netlify.app/">Netlify Project View</a>
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+## API
 
-# Troubleshooting
+No external APIs were used in this project.
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- Email: emreertugrl7@gmail.com
+- LinkedIn: [emreertugrul7](https://www.linkedin.com/in/emreertugrul7/)
 
 # Learn More
 
-To learn more about React Native, take a look at the following resources:
+To learn more about React Native,Reanimated and Navigation, take a look at the following resources:
 
 - [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-
-<img src="assets/images//Login-SignUp.gif" alt="Login-SingUp-gif" />
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - learn more about React Native Reanimated.
+- [React Navigation](https://reactnavigation.org/) - learn more about React Navigation.
