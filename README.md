@@ -53,9 +53,3 @@ Clone the project:
 
 No external APIs were used in this project.
 
-## Contact
-
-For any questions or suggestions, feel free to reach out:
-
-- Email: emreertugrl7@gmail.com
-- LinkedIn: [emreertugrul7](https://www.linkedin.com/in/emreertugrul7/)
